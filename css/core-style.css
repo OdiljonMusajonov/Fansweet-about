@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.mx-w {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Colors */
+.nav-color {
+  color: #394149;
+}
+
+.main-title {
+  color: #1d3444;
+}
+
+.info-color {
+  color: #5b5b5b;
+}
+
+.title-color {
+  color: #0d1317;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.orange {
+  color: #f58a07;
+}
+
+.bg-orange {
+  background-color: #f58a07;
+}
+
+.bg-blur {
+  background-color: #252525;
+}
+
+.bg-orange-blur {
+  background-color: #252525;
+}
+
+.main-bg-color {
+  background-color: #f5f5f5;
+}
+
+.blog-bg-color {
+  background-color: #dceaf5;
+}
+
+.footer-bg-color {
+  background-color: #063255;
+}
+
+/* Buttun */
+.btn {
+  padding: 18px 32px;
+  color: white;
+  background-color: #f58a07;
+  border-radius: 27px;
+}
+
+.btn2 {
+  padding: 18px 32px;
+  color: #f58a07;
+  background-color: #f58a071a;
+  border-radius: 31px;
+}
+
+/* Font weight */
+.w600 {
+  font-weight: 600;
+}
+
+.w500 {
+  font-weight: 500;
+}
+
+/* Links */
+.link {
+  text-decoration: none;
+}
+
+.list-none {
+  list-style: none;
+}
+
+/* Radius */
+.border-r {
+  border-radius: 20px;
+}
+
+/* Flex */
+.d-flex {
+  display: flex;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}

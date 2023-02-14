@@ -1,0 +1,12 @@
+/* Header styles */
+.header {
+  padding: 15px 0;
+}
+
+.header-navbar {
+  gap: 40px;
+}
+
+.header-navbar__items {
+  gap: 32px;
+}
