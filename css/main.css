@@ -10,3 +10,151 @@
 .header-navbar__items {
   gap: 32px;
 }
+
+/* Hero styles */
+.hero {
+  margin-top: 100px;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill);
+}
+
+.hero-banner {
+  margin-left: 45px;
+}
+
+.hero-info__title {
+  font-size: 64px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+}
+
+.hero-info__subtitle {
+  margin-top: 25px;
+  margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.hero-banner {
+  position: relative;
+}
+
+.hero-banner img {
+  width: 100%;
+}
+
+.hero-banner__bg {
+  background: #f58a07c2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.circle {
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  right: -49%;
+  bottom: -7%;
+}
+
+@media (max-width: 1300px) {
+  .mx-w {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* Hero */
+  .hero-info__title {
+    font-size: 45px;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Header */
+  .header-navbar__items {
+    display: none;
+  }
+
+  .hamburger-icon {
+    display: flex;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 0 50px;
+    grid-template-columns: repeat(1, 2fr);
+  }
+
+  .hero-info__title {
+    font-size: 32px;
+    line-height: 45px;
+    text-align: center;
+  }
+
+  .hero-info__subtitle {
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+  }
+
+  .hero-info__btn {
+    text-align: center;
+  }
+
+  .hero-banner {
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn2 {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 0;
+  }
+
+  .hero-info__title {
+    font-size: 28px;
+  }
+
+  .hero-info__btn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Hero */
+  .hero-info__title {
+    font-size: 22px;
+    line-height: 33px;
+  }
+
+  .hero-info__subtitle {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 478px) {
+  .btn {
+    display: block;
+    padding: 10px;
+  }
+
+  .btn2 {
+    display: none;
+  }
+}

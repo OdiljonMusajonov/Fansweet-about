@@ -15,6 +15,20 @@
   margin: 0 auto;
 }
 
+.hamburger-icon {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger-icon span {
+  width: 30px;
+  height: 4px;
+  border-radius: 50px;
+  background-color: #063255;
+}
+
 /* Colors */
 .nav-color {
   color: #394149;
@@ -66,6 +80,7 @@
 
 /* Buttun */
 .btn {
+  display: inline-block;
   padding: 18px 32px;
   color: white;
   background-color: #f58a07;
@@ -73,6 +88,7 @@
 }
 
 .btn2 {
+  display: inline-block;
   padding: 18px 32px;
   color: #f58a07;
   background-color: #f58a071a;
@@ -113,4 +129,9 @@
 
 .items-center {
   align-items: center;
+}
+
+/* Grid */
+.d-grid {
+  display: grid;
 }
