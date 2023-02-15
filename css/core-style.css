@@ -139,3 +139,7 @@
 .d-grid {
   display: grid;
 }
+
+.tem-column {
+  grid-template-columns: auto auto;
+}
