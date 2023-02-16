@@ -224,6 +224,66 @@
   font-size: 14px;
 }
 
+/* With styles */
+.with {
+  margin-top: 150px;
+  gap: 110px;
+}
+
+.with-info__title {
+  font-size: 48px;
+  letter-spacing: -0.03em;
+  line-height: 56px;
+}
+
+.with-info__subtitle {
+  margin-top: 25px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.with-user {
+  margin-top: 40px;
+  gap: 24px;
+}
+
+.with-user__info-name {
+  font-size: 24px;
+}
+
+.with-user__info-work {
+  font-size: 18px;
+}
+
+.with-banner {
+  position: relative;
+}
+
+.play-icon {
+  gap: 15px;
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+
+.play-icon__item {
+  width: 51px;
+  height: 51px;
+  text-align: center;
+  line-height: 53px;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.play-icon__item img {
+  width: 25%;
+}
+
+.play-icon__item:hover {
+  background: rgb(204, 203, 203);
+}
+
 @media (max-width: 1300px) {
   .mx-w {
     padding: 0 15px;
@@ -245,6 +305,21 @@
 
   .global-banner img {
     width: 100%;
+  }
+
+  /* With */
+  .with-banner img {
+    width: 100%;
+  }
+
+  .with {
+    padding: 0 150px;
+    grid-template-columns: repeat(1, 2fr);
+  }
+
+  .with-info__title {
+    font-size: 45px;
+    line-height: 60px;
   }
 }
 
@@ -355,6 +430,39 @@
     row-gap: 40px;
     grid-template-columns: repeat(1, 2fr);
   }
+
+  /* With */
+  .with {
+    padding: 0 100px;
+    row-gap: 30px;
+  }
+
+  .with-info__title {
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .with-info__subtitle {
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 27px;
+  }
+
+  .with-user {
+    margin-top: 20px;
+  }
+
+  .with-user__info-name {
+    font-size: 18px;
+  }
+
+  .with-user__info-work {
+    font-size: 14px;
+  }
+
+  .play-icon__item img {
+    width: 25%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -418,6 +526,16 @@
     width: 100%;
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  /* With */
+  .with {
+    padding: 0 50px;
+  }
+
+  .with-info__title {
+    font-size: 28px;
+    line-height: 32px;
   }
 }
 
@@ -512,6 +630,30 @@
   .name-info {
     font-size: 12px;
   }
+
+  .with-info__title {
+    font-size: 22px;
+  }
+
+  .with-info__subtitle {
+    font-size: 14px;
+  }
+
+  /* With */
+  /* .play-icon {
+    bottom: 5%;
+    left: 5%;
+  } */
+
+  .play-video {
+    font-size: 14px;
+  }
+
+  .play-icon__item {
+    width: 41px;
+    height: 41px;
+    line-height: 43px;
+  }
 }
 
 @media (max-width: 478px) {
@@ -545,5 +687,14 @@
   .work-cards {
     grid-template-columns: repeat(1, 2fr);
     row-gap: 20px;
+  }
+
+  .name {
+    display: block;
+  }
+
+  /* With */
+  .with {
+    padding: 0 20px;
   }
 }
