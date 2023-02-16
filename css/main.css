@@ -17,10 +17,7 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   grid-template-columns: repeat(auto-fill);
-}
-
-.hero-banner {
-  margin-left: 45px;
+  gap: 45px;
 }
 
 .hero-info__title {
@@ -41,13 +38,15 @@
 }
 
 .hero-banner img {
+  display: block;
   width: 100%;
 }
 
 .hero-banner__bg {
-  background: #f58a07c2;
+  display: block;
+  background: #f58a07;
+  mix-blend-mode: multiply;
   position: absolute;
-  top: 0;
   left: 0;
   bottom: 0;
   width: 30%;
@@ -672,6 +671,10 @@
   .hero {
     margin-top: 50px;
   }
+
+  .hero-banner__bg {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 
   /* Startup */
   .startup-card__info {
