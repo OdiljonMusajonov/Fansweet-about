@@ -1,0 +1,186 @@
+/* --- Footer styles --- */
+.footer {
+  padding: 80px 0;
+}
+
+.footer-items {
+  gap: 100px;
+}
+
+.footer-title {
+  margin-top: 30px;
+  max-width: 350px;
+  font-size: 36px;
+}
+
+.footer-navbar__items {
+  gap: 100px;
+}
+
+.footer-socialnetworks {
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.footer-navbar__items1 {
+  margin-top: 30px;
+}
+
+.navigatsion-menu p {
+  font-size: 18px;
+}
+
+.footer-navbar__items1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-search__title {
+  font-size: 18px;
+}
+
+.input {
+  margin-top: 30px;
+  width: 340px;
+  padding: 18px 30px;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.footer-serach__btn {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 18px;
+}
+
+.relative {
+  position: relative;
+}
+
+.left {
+  width: 3%;
+  height: 30%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top-right-radius: 25px;
+}
+
+.right {
+  width: 3%;
+  height: 60%;
+  position: absolute;
+  right: 0;
+  bottom: 25%;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+@media (max-width: 1300px) {
+  .footer {
+    padding: 50px;
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer-items {
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .footer-title {
+    width: 280px;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-items {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .footer-title {
+    font-size: 22px;
+  }
+
+  .footer-navbar__items {
+    justify-content: space-between;
+    gap: 0;
+    padding-right: 150px;
+  }
+
+  .navigatsion-menu p {
+    font-size: 16px;
+  }
+
+  .footer-navbar__item a {
+    font-size: 14px;
+  }
+
+  .footer-serach__btn {
+    font-size: 14px;
+  }
+
+  .footer-serach__btn .btn {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 567px) {
+  .footer-items {
+    gap: 30px;
+  }
+
+  .footer-navbar__items {
+    padding-right: 30px;
+  }
+
+  .footer-navbar__items1 {
+    gap: 10px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 478px) {
+  .footer {
+    padding: 50px 20px;
+  }
+
+  .footer-title {
+    margin-top: 10px;
+  }
+
+  .footer-socialnetworks {
+    margin-top: 10px;
+  }
+
+  .footer-navbar__items {
+    padding-right: 20px;
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  .input {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .footer-serach__btn {
+    width: 100%;
+  }
+
+  .search-btn {
+    width: 100%;
+    text-align: center;
+  }
+}

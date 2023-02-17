@@ -147,3 +147,14 @@
 .tem-column {
   grid-template-columns: auto auto;
 }
+
+/* Hover */
+.nav-hov:hover {
+  transition: 0.3s;
+  color: #f58a07;
+}
+
+.btn:hover {
+  transition: 0.3s;
+  background-color: #be6902;
+}
